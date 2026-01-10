@@ -7,25 +7,30 @@
 - Course: Software Engineering
 - Academic Year: 
 
-## Description
-This project implements a simple RESTful API for managing tasks.  
-Each task includes:
+## Περιγραφή
+
+Αυτό το έργο υλοποιεί ένα απλό RESTful API για τη διαχείριση εργασιών.
+Κάθε εργασία περιλαμβάνει:
+
 - id
 - username
 - title
 - description
 - deadline
 
-The API is built using **Python and Flask** and stores data in an **SQLite** database.
+Το API έχει δημιουργηθεί χρησιμοποιώντας **Python και Flask** και αποθηκεύει δεδομένα σε μια βάση **SQLite**.
 
-## Available Endpoints
+## Διαθέσιμα Endpoints
+
 - `GET /tasks` – Retrieve all tasks
 - `GET /tasks/{id}` – Retrieve a task by ID
 - `POST /tasks` – Create a new task
 - `DELETE /tasks/{id}` – Delete a task by ID
 
-## Testing
-Unit tests are written using Python’s `unittest` framework and validate:
+## Δοκιμές
+
+Οι δοκιμές μονάδας έχουν γραφτεί χρησιμοποιώντας το πλαίσιο `unittest` της Python και επαληθεύουν:
+
 - Task creation
 - Task retrieval
 - Error handling
