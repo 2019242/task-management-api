@@ -1,7 +1,7 @@
 # Task Management API
 
 ## Student Information
-- Name: 
+- Name: kourtesis spiros
 - Department: Department of Informatics
 - University: Ionian University
 - Course: Software Engineering
